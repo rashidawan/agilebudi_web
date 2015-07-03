@@ -745,16 +745,25 @@ pre code {
   .container {
     width: 750px;
   }
+  .sec_ser_test {
+		margin-bottom:65px;  
+  }
 }
 @media (min-width: 992px) {
   .container {
     width: 970px;
+  }
+   .sec_ser_test {
+		margin-bottom:20px;  
   }
  
 }
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+   .sec_ser_test {
+		margin-bottom:0px;  
   }
 }
 .container-fluid {
@@ -6048,7 +6057,7 @@ img{
 
 .about-sec{
   background: #145976;
-  padding: 55px 0px;
+  padding: 55px 15px;
 }
 
 .about-sec p{
@@ -6066,7 +6075,7 @@ img{
 
 .whyus-sec{
   background: #fff;
-  padding: 55px 0px;
+  padding: 55px 15px;
 }
 
 .whyus-sec p{
@@ -6076,7 +6085,7 @@ img{
 
 .services-sec{
   background: #2d3e50;
-  padding: 55px 0px;
+  padding: 55px 15px;
   color: #fff;
 }
 
@@ -6087,9 +6096,8 @@ img{
   display: block;
 }
 
-.services-sec i img{
-  width: 100%;
-  height: auto;
+.services-sec i{
+ text-align:center;
 }
 
 .services-sec .btn{
@@ -6105,7 +6113,7 @@ img{
 
 .testing-sec{
   background: #fff;
-  padding: 55px 0px;
+  padding: 55px 15px;
 }
 
 .testing-sec i{
@@ -6115,9 +6123,8 @@ img{
   margin: 0 auto;
 }
 
-.testing-sec i img{
-  width: 100%;
-  height: auto;
+.testing-sec i {
+  text-align:center;
 }
 
 .testing-sec .btn{
@@ -6241,6 +6248,7 @@ img{
 }
 
 .bottom-sec{
+	text-align:center;
   background: #1e1e1e;
   padding:25px 0px;
 }
@@ -6449,9 +6457,7 @@ h3, .h3{
 }
  .banner-sec h1 { font-size:22px; padding:50%  0px}
 
-.testing-sec i, .services-sec i{
-  width:36%;
-}
+
 
 .btn{
   max-width: 120px;
@@ -6697,7 +6703,7 @@ a.nav-expander.fixed {
 }
 
 .nav-expanded a.nav-expander.fixed {
-    right: 20em;
+    right: 15em;
 }
 
 nav {
@@ -6709,7 +6715,7 @@ nav {
   right: -20em;
   font-size: 15px;
   top: 0;
-  width: 20em;
+  width: 15em;
   z-index: 2000;
   
   transition: right 0.3s ease-in-out 0s;
@@ -6743,8 +6749,8 @@ body.nav-expanded {
 
 .main-menu li {
   border-bottom: 1px solid #323949;
-  margin-left: 20px;
-  font-size: 18px;
+  margin-left: 4px;
+  font-size: 15px;
   padding: 12px;
 }
 
@@ -6761,7 +6767,8 @@ body.nav-expanded {
 
 .main-menu li .sub-nav {
   border-bottom: 0px;
-  padding: 4px;
+  padding: 8px 4px;
+  font-size:14px;
 }
 
 .main-menu a .caret {
@@ -6774,7 +6781,7 @@ body.nav-expanded {
 	border-left: 4px solid transparent;
 	content: "";
     margin-top: 11px;
-	margin-left:70px
+	margin-left:40px
 }
 
 .main-menu a:hover .caret {
@@ -6821,3 +6828,6 @@ body.nav-expanded {
 .menu_main {
 	position:relative;	
 }
+.sec_ser_test {
+		text-align:center;
+  }
