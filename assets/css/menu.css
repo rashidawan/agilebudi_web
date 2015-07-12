@@ -61,7 +61,7 @@
     text-decoration: none
 }
 .menu ul li a:hover {
-	color:#f8a456 !important;
+	color:#5b391e !important;
 }
 .menu .arrow:after {
     content: "";
@@ -142,7 +142,7 @@
 }
 
 .mega-menu:before {
-	 border-bottom: 15px solid #f8a456;
+	 border-bottom: 15px solid #5b391e;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     content: "";
@@ -157,8 +157,8 @@
     top: 100%;
     padding: 18px 11px;
     background-color: #fff;
-    border: 1px solid #e0e0e0;
-	border-top:3px solid #f8a456;   
+    border: 1px solid #5b391e;
+	border-top:3px solid #5b391e;   
     color: #777;
 	width:500px;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
@@ -187,12 +187,12 @@
     background-image: none
 }
 .mega-menu ol li a:hover {
-    color: #247da1 !important;
+    color: #5b391e !important;
 }
 .mega-menu div h4 {
     font-size: 14px;
     font-weight: 400;
-    color: #247da1;
+    color: #5b391e;
     
     padding: 0 0 8px 0;
     margin: 0 0 10px 0

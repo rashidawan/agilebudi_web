@@ -4126,10 +4126,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .breadcrumb > li {
   display: inline-block;
+  color:#a55f23;
 }
 .breadcrumb > li + li:before {
   padding: 0 5px;
-  color: #0f4459;
+  color: #a55f23;
   content: "/\00a0";
 }
 .breadcrumb > .active {
@@ -5893,7 +5894,7 @@ img{
 .inner-wrapper h2{
   text-align: center;
   text-decoration:none;
-  color: #1c6e93;
+  color: #5b391e;
   padding-bottom: 15px;
   position: relative;
   margin-bottom:30px;
@@ -5909,7 +5910,7 @@ img{
   left: 0;
   right: 0;
   margin: 0 auto;
-  border-bottom: solid 1px #8fc0c5; 
+  border-bottom: solid 1px #5b391e; 
 }
 
 .inner-wrapper h3{
@@ -5924,7 +5925,7 @@ img{
   clear: both;
   display: block;
   overflow: hidden;
-  border:solid 2px #f08e2b;
+  border:solid 2px #5b3a1e;
   text-align: center;
   padding: 0px;
   margin-top:25px;
@@ -5935,14 +5936,18 @@ img{
 .btn a{
   display: block;
   padding: 12px 0px;
-  color: #f08e2b;
+  color: #5b391e;
   text-decoration: none;
   font-size: 18px;
+}
+.whyus-sec .btn a:hover {
+	background:	#5b391e;
+	color:#fff;
 }
 
 
 .top-sec{
-  background: #2d3e50;
+  background: #727373;
   padding: 10px 0px;
 }
 
@@ -5972,14 +5977,14 @@ img{
 }
 
 .top-sec span.email{
-  color: #f29025;
+  color: #ccc;
 }
 
 .top-sec span.phonenum{
-  color: #a5b1bd;
+  color: #ccc;
   padding-right: 12px;
   margin-right: 12px;
-  border-right: solid 1px #a4b2bd;
+  border-right: solid 1px #999;
 }
 
 .header-sec{
@@ -6021,7 +6026,7 @@ img{
 }
 
 .menu ul ul{
-  border-top: solid 2px #f8a456;
+  border-top: solid 2px #5b391e;
   min-width: 190px;
   left:20px;
 }
@@ -6035,14 +6040,14 @@ img{
   top: -10px;
     border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-bottom: 10px solid #f8a456;
+  border-bottom: 10px solid #5b3a1e;
 }
 
 
 .request-btn{
   width: auto;
   float: right;
-  background: #f68d24;
+  background: #5b3a1e;
 }
 
 .request-btn .btn{
@@ -6056,12 +6061,12 @@ img{
 }
 
 .about-sec{
-  background: #145976;
+  background: #727273;
   padding: 55px 15px;
 }
 
 .about-sec p{
-    color: #4c9bba;
+    color: #333;
     font-size: 22px;
     line-height:30px;
     font-weight: bold;
@@ -6128,14 +6133,18 @@ img{
 }
 
 .testing-sec .btn{
-  border-color: #f08e2b;
+  border-color: #5b391e;
   max-width: 120px;
 }
 
 .testing-sec .btn a{
   padding:7px 0;
-  color: #f08e2b;
+  color: #5b391e;
   font-size: 15px;
+}
+.testing-sec .btn a:hover {
+background: #5b391e;
+color:#fff;	
 }
 
 .testimonial-sec{
@@ -6542,7 +6551,7 @@ h3, .h3{
 	text-align:center;
 }
 .page_head { 
-	background:#247da1;
+	background:#5b3a1e;
 	padding:15px;
 }
 .page-heading h2 {
@@ -6564,7 +6573,7 @@ h3, .h3{
 	padding-right:15px;	
 }
 .pg_sec h2, .pg_sec_side h2 {
-	color:#247da1;
+	color:#5b391e;
 	font-size:27px;
 	font-family:"rolight";
 	font-weight:300;
@@ -6613,8 +6622,8 @@ h3, .h3{
 	font-weight:300;
 }
 .pg_link_side ul li a.active {
-	color:#f68c24;
-	border-left:5px solid #247da1;	
+	color:#a55f23;
+	border-left:5px solid #727273;	
 }
 .pg_link_side ul li a:hover {
 	text-decoration:none;
@@ -6645,11 +6654,11 @@ form.contact textarea {
     resize: none;
 }
 form.contact button, form.contact input#send {
-     border: 2px solid #f08e2b;
+     border: 2px solid #5b391e;
     border-radius: 0;
 	background:#fff;
     clear: both;
-	color:#f08e2b;
+	color:#5b391e;
 	font-size:17px;
     display: block;
    
@@ -6660,8 +6669,8 @@ form.contact button, form.contact input#send {
    
 }
 form.contact button:hover, form.contact input#send:hover {
-    background: #f08e2b none repeat scroll 0 0;
-	color:#fff;
+    background: #fff none repeat scroll 0 0;
+	color:#5b391e;
 }
 
 
