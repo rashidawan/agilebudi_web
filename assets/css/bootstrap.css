@@ -6022,7 +6022,7 @@ img{
 
 .menu ul ul{
   border-top: solid 2px #f8a456;
-  min-width: 170px;
+  min-width: 190px;
   left:20px;
 }
 
@@ -6587,6 +6587,7 @@ h3, .h3{
 	color:#636363; 
 	list-style:url(../images/bullets.png);
 	font-size:17px; 
+	margin-bottom:6px;
  }
  .pg_link_side {
 	padding-top:45px; 
@@ -6643,7 +6644,7 @@ form.contact textarea {
     height: 100px;
     resize: none;
 }
-form.contact button {
+form.contact button, form.contact input#send {
      border: 2px solid #f08e2b;
     border-radius: 0;
 	background:#fff;
@@ -6658,7 +6659,7 @@ form.contact button {
     text-align: center;
    
 }
-form.contact button:hover {
+form.contact button:hover, form.contact input#send:hover {
     background: #f08e2b none repeat scroll 0 0;
 	color:#fff;
 }
@@ -6781,7 +6782,7 @@ body.nav-expanded {
 	border-left: 4px solid transparent;
 	content: "";
     margin-top: 11px;
-	margin-left:40px
+	
 }
 
 .main-menu a:hover .caret {
