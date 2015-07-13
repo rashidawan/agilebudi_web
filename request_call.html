@@ -142,68 +142,45 @@
 
 		</div>
 	</div>
-
 	<!--banner -->
 	<div class="col-md-12 padding-margin-none page_head ">
     	<div class="container">
 		<div class="col-md-6 page-heading">
-        	<h2>About Us</h2>
+        	<h2>Request a Call</h2>
         </div>
-        <div class="col-md-6 pull-right hidden-xs hidden-sm">
-        	
-
-    <ul class="breadcrumb">
-
-        <li>About Us</li>
-
        
-
-        <li class="active">Our Expertise</li>
-       
-
-    </ul>
-
-
-        </div>
         </div>
 	</div>
 
 	<div class="row">
     	<div class="container">
-        	<div class="col-md-9 col-sm-8 pg_sec">
-            	<p>Agile Budi are focused on delivering high quality software solutions for our clients within the area below.</p>
-            	<ul>
-            	  <li>Mobile Apps Development</li>
-            	  <li>Web Development</li>
-            	  <li>Desktop/Client Application Development</li>
-            	  <li>Server Side Development</li>
-          	  </ul><br>
-            	<p>At Agile Budi, we have expertise in latest software technologies including but not limited to</p>
-            	<ul>
-            	  <li>Net (C#, VB.NET and ASP.NET)</li>
-            	  <li>Java/J2EE</li>
-            	  <li>Sql Server, Oracle for Databases</li>
-            	  <li>Android, iOS and Windows Phone</li>
-            	  <li>Crystal Reports, Jasper Reports</li>
-            	  <li>HTML5, CCS3, Javascript, JQuery, </li>
-            	  <li>Different Javascript based frameworks  for web development, such as, Angular.js, Bootstrap, Node.js</li>
-          	  </ul>
-              <h2>Training</h2>
-            	<p>As a part of continuous training programs, we help our team of developers to keep up to date to the latest software technologies. We are currently exploring Windows 8 development environment which can potentially be next generation application platform. The continuous training programs help our customers to provide solutions to their customers with the latest technologies with great quality and competitive prices.</p>
-            </div>
-            <div class="col-md-3 col-sm-4 padding-margin-none hidden-xs">
-            	<div class="pg_link_side">
-                	<ul>
-                    	
-                         <li><a href="company_overview.html" >Company Overview</a></li>
-							<li ><a href="whyus.html" >Why Us?</a></li>
-							<li><a href="our_expertise.html" class="active">Our Expertise</a></li>
-							<li ><a href="how_we_work.html">How We Work</a></li>
-							<li ><a href="cients_benefit.html">Benefit to Our Clients</a></li>
-							<li ><a href="engagement_model.html">Engagement Model</a></li>
-                        
-                    </ul>
-                </div>
+        	
+            <div class="col-md-4 col-sm-4 padding-margin-none pg_sec_side">
+            	<h2>Send us a Message</h2>
+             
+             
+             <form id="form" class="contact" method="post" action="#">
+                                <div class="form">
+                                    <div class="name col-6 column">
+                                        <input tabindex="1" name="name" id="name" type="text" placeholder="Name (*)"/>
+                                    </div>
+                                    <div class="email col-6 column">
+                                        <input tabindex="2" name="email" id="email" type="text" placeholder="Email (*)"/>
+                                    </div>
+                                    <div class="email col-6 column">
+                                        <input tabindex="2" name="phone" id="phone" type="text" placeholder="Phone (*)"/>
+                                    </div>
+                                    <div>
+                                        <textarea name="message" cols="10" rows="5" id="message" placeholder="Your message here..."></textarea>
+                                    </div>
+                                </div>
+                                <div id="submit">
+                                    <input id="send" class="btn" name="send" value="send" type="button" />
+                                </div>
+                            </form>
+                            <div id="response"></div>
+                            
+
             </div>
         </div>
     </div>
@@ -297,7 +274,7 @@
 
 		</div>
 	</div>
-    <script src="assets/js/jquery-1.10.2.min.js"></script>
+        <script src="assets/js/jquery-1.10.2.min.js"></script>
      <script src="assets/js/jquery.navgoco.js"></script>
    
     
@@ -335,6 +312,68 @@
         	
       });
       </script>
+      
+      <script type="text/javascript">
+$(function(){
+	
+		$("#send").on('click',function(){
+					var valid = '';
+                    var isr = ' is required!</p>';
+                    var name = $("#name").val();
+                    var mail = $("#email").val();
+					var phone = $("#phone").val();
+                    var messaggio = $("#message").val();
+                
+                    if (name.length<1) {
+                        valid += '<p>*Valid name'+isr;
+                    }
+					
+                    if (!mail.match(/^([a-z0-9._-]+@[a-z0-9._-]+\.[a-z]{2,4}$)/i)) {
+                        valid += '<p>*Valid email address'+isr;
+                    }
+					 if (phone.length<1) {
+                        valid += '<p>*Valid Phone No'+isr;
+                    }
+					
+					if (valid!='') {
+                        $("#response").fadeIn("slow");
+                        $("#response").html(valid);
+
+                        $('#send').removeClass('normal').addClass('error-button');
+                       
+                        setTimeout(function() {
+                            $('#send').removeClass('error-button').addClass('normal');
+                            $('#send').val('send');
+                            $("#response").fadeOut("slow"); 
+                        }, 3000);                         
+                    }
+                
+                    else {
+                        $('#send').val('wait...');
+						$.ajax({    
+							type: "POST",
+							url: "mail_rqst.php",
+							data: $("#form").serialize(),
+							cache: false,
+							
+						success: function(html){
+							console.log(html);
+							$("#response").html(html).show();
+							$('#send').val('send');
+							$("#name,#email,#phone,#message").val('');          
+						}
+						
+						});
+                    }
+		});
+
+ 
+	
+	
+});
+	
+</script>
+
 
 </body>
 </html>
