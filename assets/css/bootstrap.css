@@ -5925,7 +5925,7 @@ img{
   clear: both;
   display: block;
   overflow: hidden;
-  border:solid 2px #5b3a1e;
+  border:solid 2px #A77E5C;
   text-align: center;
   padding: 0px;
   margin-top:25px;
@@ -5947,7 +5947,7 @@ img{
 
 
 .top-sec{
-  background: #727373;
+  background: #BBBBBB;
   padding: 10px 0px;
 }
 
@@ -5977,11 +5977,11 @@ img{
 }
 
 .top-sec span.email{
-  color: #ccc;
+  color: #666;
 }
 
 .top-sec span.phonenum{
-  color: #ccc;
+  color: #666;
   padding-right: 12px;
   margin-right: 12px;
   border-right: solid 1px #999;
@@ -6047,7 +6047,7 @@ img{
 .request-btn{
   width: auto;
   float: right;
-  background: #5b3a1e;
+  background: #A77E5C;
 }
 
 .request-btn .btn{
@@ -6061,14 +6061,14 @@ img{
 }
 
 .about-sec{
-  background: #727273;
+  background: #bbb;
   padding: 55px 15px;
 }
 
 .about-sec p{
-    color: #333;
+    color: #666;
     font-size: 22px;
-    line-height:30px;
+    line-height:35px;
     font-weight: bold;
 }
 
