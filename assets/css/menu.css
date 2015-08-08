@@ -103,7 +103,7 @@
 }
 .menu ul ul {
     background: #fff;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #b3a799;
     border-top: 0;
     border-bottom: 0;
     position: absolute;
@@ -115,7 +115,7 @@
 .menu ul ul ul {
     position: absolute;
     left: 100%;
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid #b3a799;
     top: -1px
 }
 .menu ul ul li a {
@@ -142,7 +142,7 @@
 }
 
 .mega-menu:before {
-	 border-bottom: 15px solid #5b391e;
+	 border-bottom: 15px solid #b3a799;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     content: "";
@@ -157,8 +157,8 @@
     top: 100%;
     padding: 18px 11px;
     background-color: #fff;
-    border: 1px solid #5b391e;
-	border-top:3px solid #5b391e;   
+    border: 1px solid #b3a799;
+	border-top:3px solid #b3a799;   
     color: #777;
 	width:500px;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);

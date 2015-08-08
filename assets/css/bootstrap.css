@@ -4126,11 +4126,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .breadcrumb > li {
   display: inline-block;
-  color:#a55f23;
+  color:#fff;
 }
 .breadcrumb > li + li:before {
   padding: 0 5px;
-  color: #a55f23;
+  color: #fff;
   content: "/\00a0";
 }
 .breadcrumb > .active {
@@ -5894,7 +5894,7 @@ img{
 .inner-wrapper h2{
   text-align: center;
   text-decoration:none;
-  color: #5b391e;
+  color: #9c8f7c;
   padding-bottom: 15px;
   position: relative;
   margin-bottom:30px;
@@ -5910,7 +5910,7 @@ img{
   left: 0;
   right: 0;
   margin: 0 auto;
-  border-bottom: solid 1px #5b391e; 
+  border-bottom: solid 1px #9c8f7c; 
 }
 
 .inner-wrapper h3{
@@ -5925,7 +5925,7 @@ img{
   clear: both;
   display: block;
   overflow: hidden;
-  border:solid 2px #A77E5C;
+  border:solid 2px #9c8f7c;
   text-align: center;
   padding: 0px;
   margin-top:25px;
@@ -5941,13 +5941,13 @@ img{
   font-size: 18px;
 }
 .whyus-sec .btn a:hover {
-	background:	#5b391e;
+	background:	#b7afa3;
 	color:#fff;
 }
 
 
 .top-sec{
-  background: #BBBBBB;
+  background: #b7afa4;
   padding: 10px 0px;
 }
 
@@ -5962,11 +5962,11 @@ img{
   display: inline-block;
   margin-right:8px;
   padding-top: 5px;
-  color: #fff;
+  color: #565044;
 }
 
 .social-icons i a{
-  color: #fff;
+  color: #565044;
 }
 
 .top-sec span{
@@ -5977,11 +5977,11 @@ img{
 }
 
 .top-sec span.email{
-  color: #666;
+  color: #565044;
 }
 
 .top-sec span.phonenum{
-  color: #666;
+  color: #565044;
   padding-right: 12px;
   margin-right: 12px;
   border-right: solid 1px #999;
@@ -6026,7 +6026,7 @@ img{
 }
 
 .menu ul ul{
-  border-top: solid 2px #5b391e;
+  border-top: solid 2px #b3a799;
   min-width: 190px;
   left:20px;
 }
@@ -6040,14 +6040,14 @@ img{
   top: -10px;
     border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-bottom: 10px solid #5b3a1e;
+  border-bottom: 10px solid #b3a799;
 }
 
 
 .request-btn{
   width: auto;
   float: right;
-  background: #A77E5C;
+  background: #9c8f7c;
 }
 
 .request-btn .btn{
@@ -6061,12 +6061,12 @@ img{
 }
 
 .about-sec{
-  background: #bbb;
+  background: #9c8f7c;
   padding: 55px 15px;
 }
 
 .about-sec p{
-    color: #666;
+    color: #fff;
     font-size: 22px;
     line-height:35px;
     font-weight: bold;
@@ -6089,7 +6089,7 @@ img{
 
 
 .services-sec{
-  background: #2d3e50;
+  background: #b7afa3;
   padding: 55px 15px;
   color: #fff;
 }
@@ -6106,13 +6106,13 @@ img{
 }
 
 .services-sec .btn{
-  border-color: #8495a7;
+  border-color: #fff;
   max-width: 120px;
 }
 
 .services-sec .btn a{
   padding:7px 0;
-  color: #8495a7;
+  color: #fff;
     font-size: 15px;
 }
 
@@ -6133,22 +6133,22 @@ img{
 }
 
 .testing-sec .btn{
-  border-color: #5b391e;
+  border-color: #b7afa3;
   max-width: 120px;
 }
 
 .testing-sec .btn a{
   padding:7px 0;
-  color: #5b391e;
+  color: #b7afa3;
   font-size: 15px;
 }
 .testing-sec .btn a:hover {
-background: #5b391e;
-color:#fff;	
+background: #fff;
+color:#b7afa3;	
 }
 
 .testimonial-sec{
-  background: #eaebed; 
+  background: #eae9e5; 
     padding: 55px 0px;
 }
 
@@ -6202,7 +6202,7 @@ color:#fff;
 
 
 .footer-sec{
-  background: #373737; 
+  background: #b7afa4; 
     padding: 55px 0px;
 }
 
@@ -6223,7 +6223,7 @@ color:#fff;
 .footer-sec ul li h4{
   font-family: 'roregular';
   font-size: 20px;
-  color: #6d6d6d;
+  color: #6b6253;
 }
 
 .footer-sec ul li ul li{
@@ -6258,13 +6258,13 @@ color:#fff;
 
 .bottom-sec{
 	text-align:center;
-  background: #1e1e1e;
+  background: #867f75;
   padding:25px 0px;
 }
 
 .bottom-sec p{
   display: inline-block;
-  color: #404040;
+  color: #fff;
   margin-bottom: 0px;
   font-size: 14px;
 }
@@ -6551,7 +6551,7 @@ h3, .h3{
 	text-align:center;
 }
 .page_head { 
-	background:#5b3a1e;
+	background:#9c8f7c;
 	padding:15px;
 }
 .page-heading h2 {
@@ -6622,20 +6622,20 @@ h3, .h3{
 	font-weight:300;
 }
 .pg_link_side ul li a.active {
-	color:#a55f23;
-	border-left:5px solid #727273;	
+	color:#000;
+	border-left:5px solid #9c8f7c;	
 }
 .pg_link_side ul li a:hover {
 	text-decoration:none;
-	color:#f68c24;	
+	color:#000;	
 }
 .whyus-sec a:hover, .testing-sec a:hover {
 	background:#f08e2b;
 	color:#fff;
 }
 .services-sec a:hover {
-	background:#8495a7;
-	color:#fff;
+	background:#fff;
+	color:#4446;
 }
 .pg_sec .fa {
 	width:20px;	
