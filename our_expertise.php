@@ -28,14 +28,14 @@
 	<div class="row">
     	<div class="container">
         	<div class="col-md-9 col-sm-8 pg_sec">
-            	<p>Agile Budi are focused on delivering high quality software solutions for our clients within the area below.</p>
+            	<p>AgileBudi are focused on delivering high quality software solutions for our clients within the area below.</p>
             	<ul>
             	  <li>Mobile Apps Development</li>
             	  <li>Web Development</li>
             	  <li>Desktop/Client Application Development</li>
             	  <li>Server Side Development</li>
           	  </ul><br>
-            	<p>At Agile Budi, we have expertise in latest software technologies including but not limited to</p>
+            	<p>At AgileBudi, we have expertise in latest software technologies including but not limited to</p>
             	<ul>
             	  <li>Net (C#, VB.NET and ASP.NET)</li>
             	  <li>Java/J2EE</li>

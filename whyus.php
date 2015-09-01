@@ -28,9 +28,9 @@
 	<div class="row">
     	<div class="container">
         	<div class="col-md-9 col-sm-8 pg_sec">
-            	<p>At Agile Budi, we understand the requirements of our customers and importance of delivering the products on time. We offer very competitive rates which allow our customers to invest in other areas of their business. At Agile Budi, we do not compromise on quality. That is one of the reasons why we only hire the best people of our field with enough experience to produce excellent quality software products.<br><br>
+            	<p>At AgileBudi, we understand the requirements of our customers and importance of delivering the products on time. We offer very competitive rates which allow our customers to invest in other areas of their business. At AgileBudi, we do not compromise on quality. That is one of the reasons why we only hire the best people of our field with enough experience to produce excellent quality software products.<br><br>
 
-Agile Budi is able to quickly respond to the rapidly growing need for Agile development in the market. Our professionals follow a creative, yet transparent process that relies on productive, self-organized, and collaborative teams. These teams are focused on delivering functioning components of the application immediately upon their completion.
+AgileBudi is able to quickly respond to the rapidly growing need for Agile development in the market. Our professionals follow a creative, yet transparent process that relies on productive, self-organized, and collaborative teams. These teams are focused on delivering functioning components of the application immediately upon their completion.
 </p>
             </div>
             <div class="col-md-3 col-sm-4 padding-margin-none hidden-xs">

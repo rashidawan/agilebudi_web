@@ -27,14 +27,14 @@
 	<div class="row">
     	<div class="container">
         	<div class="col-md-9 col-sm-8 pg_sec">
-            	<p>Agile Budi is a Pakistan based Software development company with development house in Islamabad, Pakistan. Agile Budi was established in 2012 by experienced Software Engineers who have experience of European market for over 10 years. Team based in Islamabad mostly focus on delivering the solution including analysis, design, development, testing and deployment. We strongly follow the agile software methodologies in order to deliver our projects.</p>
+            	<p>AgileBudi is a Pakistan based Software development company with development house in Islamabad, Pakistan. AgileBudi was established in 2012 by experienced Software Engineers who have experience of European market for over 10 years. Team based in Islamabad mostly focus on delivering the solution including analysis, design, development, testing and deployment. We strongly follow the agile software methodologies in order to deliver our projects.</p>
                 
                 <h2>Vision</h2>
                 <p>To deliver high quality software solutions with commitment.</p>
                 <h2>Mission</h2>
-                <p>Our mission is to provide high-quality and excellent value solutions in order to help our customers to get success in their business. At Agile Budi, we believe in building long term business relationships with our customers by continuously delivering high quality software solutions.</p>
+                <p>Our mission is to provide high-quality and excellent value solutions in order to help our customers to get success in their business. At AgileBudi, we believe in building long term business relationships with our customers by continuously delivering high quality software solutions.</p>
                 <h2>Business Philosophy</h2>
-                <p class="nomrgn">At Agile Budi, we focus on</p>
+                <p class="nomrgn">At AgileBudi, we focus on</p>
                 <ul>
                 	<li>Quality</li>
                     <li>Process</li>

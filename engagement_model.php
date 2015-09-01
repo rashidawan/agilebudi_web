@@ -29,7 +29,7 @@
 	<div class="row">
     	<div class="container">
         	<div class="col-md-9 col-sm-8 pg_sec">
-            	<p>We become a part of team and share a passion for customers’ business goals. Agile Budi client engagement models reflect our account relationship philosophy. Our flexible models provide support exactly the way you need it — as if the need was fulfilled internally
+            	<p>We become a part of team and share a passion for customers’ business goals. AgileBudi client engagement models reflect our account relationship philosophy. Our flexible models provide support exactly the way you need it — as if the need was fulfilled internally
 </p>
 <img src="assets/images/engagement_model.jpg">
 <p>In addition to the above engagement models, we are open to having a Customized Engagement Model with our clients.</p>

@@ -20,7 +20,7 @@ Save your coast of hiring cyclical technical resources
 		<div class="col-md-12 padding-margin-none whyus-sec">
 		<div class="inner-wrapper sm">
 			<h2>Why Us</h2>
-			<p>At Agile Budi, we understand the requirements of our customers and importance of delivering the products on time. We offer very competitive rate which allow our customers to invest in other areas of their business. At Agile Budi, we do not compromise on quality. That is one of the reasons why we only hire the best people of our field with enough experience to produce excellent quality software products.</p>
+			<p>At AgileBudi, we understand the requirements of our customers and importance of delivering the products on time. We offer very competitive rate which allow our customers to invest in other areas of their business. At AgileBudi, we do not compromise on quality. That is one of the reasons why we only hire the best people of our field with enough experience to produce excellent quality software products.</p>
 
 <div class="btn margint-top"><a href="company_overview.php">Learn More</a></div>
 
